@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Elsa SPEAK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="iphone-11-pro-max-image hidden">
+    <img class="iphone-layout" src="images/iphone11-promax-layout.png" alt="">
+  </div>
+  <div id="main">
+    <div id="header">
+      <a href="#" class="btn-logo">
+        <img class="nav-img" src="images/nav-img.png" alt="">
+      </a>
+    </div>
+    <!-- Section 2 - Slider -->
+    <div id="slider">
+      <div class="left">
+        <h1>APP LUYỆN NÓI <br> & GIAO TIẾP TIẾNG ANH THỜI 4.0</h1>
+        <p>Với ELSA Speak - Ai Cũng Có Thể Nói Tiếng Anh Hay!</p>
+        <a href="#myform" class="btn">Đăng ký ngay</a>
+      </div>
+    </div>
+    <!-- End Section 2 - Slider -->
+    <!-- Form -->
+    <div id="content">
+      <div class="section3">
+        <div class="form-container id" id="formContainer">
+          <div class="form-wrapper">
+            <form class="" action="index.html" method="post" id="myform" name="formValidation">
+              <h2 class="form-heading">CÙNG ỨNG DỤNG ELSA <br>NÓI TIẾNG ANH "THẢ GA"</h2>
+              <div class="input-row">
+                <label for="top-name" class="label" id="first-label"><img src="images/icon-name.png" alt="" class="icon">Họ tên *</label>
+                <div class="input-wrap">
+                  <input type="text" class="input-text" id="top-name" name="name" value="" required />
+                </div>
+              </div>
+              <div class="input-row">
+                <label for="top-phone" class="label" id="second-label"><img src="images/icon-phone.png" alt="" class="icon" id="icon-phone">Số điện thoại *</label>
+                <div class="input-wrap">
+                  <input type="text" class="input-text" id="top-phone" name="phone" value="" required />
+                  <div class="error hidden" id="phone_error">
+                    Đã có lỗi xảy ra, vui lòng kiểm tra lại số điện thoại.
+                  </div>
+                </div>
+              </div>
+              <div class="input-row">
+                <label for="top-mail" class="label" id="third-label"><img src="images/icon-email.png" alt="" class="icon">Email *</label>
+                <div class="input-wrap">
+                  <input type="text" class="input-text" id="top-mail" name="mail" value="" required />
+                  <div class="error hidden" id="email_error">
+                    Đã có lỗi xảy ra, vui lòng kiểm tra lại email.
+                  </div>
+                </div>
+              </div>
+              <div class="input-item">
+                <input type="radio" class="input-option" id="top-option-1" data-index="1" name="membership" value="one-year" required />
+                <label for="top-option-1">Gói học 1 năm</label>
+              </div>
+              <div class="input-item input-item-2">
+                <input type="radio" class="input-option" id="top-option-2" data-index="2" name="membership" value="life-span" />
+                <label for="top-option-2">Gói trọn đời</label>
+              </div>
+              <div class="option1 select" id="option1">
+                <p>Gói 1 năm: 989.000 VND</p>
+              </div>
+              <div class="option2 select" id="option2">
+                <p>Gói trọn đời: 1.995.000 VND</p>
+              </div>
+              <div class="input-row buttons">
+                  <button id="reg-1" type="submit" class="btn btn-primary btn-submit">Gửi đăng ký</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End Form -->
+  <!-- In the Figma design, this section is a screenshoot picture,  -->
+  <div class="section4">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="heading">CÁ NHÂN HOÁ LỘ TRÌNH HỌC</h2>
+            <p class="sub-heading">Làm bài kiểm tra đầu vào với ELSA trong 5 phút và bạn sẽ có:</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3">
+                <div class="img">
+                    <img src="images/section4-1.png" alt=""  />
+                </div>
+                <div class="cont">
+                    <p>Trí tuệ nhân tạo trả về bạn số điểm <b>“CHUẨN BẢN XỨ"</b></p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="img">
+                    <img src="images/section4-2.png" alt="" />
+                </div>
+                <div class="cont">
+                    <p><b>NGAY LẬP TỨC</b>, bạn biết mình phát âm sai ở đâu qua những gam màu trực quan sinh động.</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="img">
+                    <img src="images/section4-3.png" alt="" />
+                </div>
+                <div class="cont">
+                    <p><b>CÔNG NGHỆ NHẬN DIỆN</b> giọng nói chuẩn đến từng âm tiết.</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="img">
+                    <img src="images/section4-4.png" alt="" />
+                </div>
+                <div class="cont">
+                    <p>ELSA sẽ <b>LẬP LỘ TRÌNH HỌC CÁ NHÂN HOÁ</b> dựa trên các chỉ số bài kiểm tra đầu vào của bạn.</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <span id="reg-2"><a href="#myform" class="btn btn-primary btn-reg">Đăng ký ngay</a></span>
+        </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
